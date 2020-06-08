@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SuperPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let a = SuperClass()
+        a.add(a: 1, b: 2)
     }
 
     override func didReceiveMemoryWarning() {

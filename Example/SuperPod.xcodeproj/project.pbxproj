@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D33380010088F792B4A1ABC /* Pods_SuperPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B27A8B7C6FCC9627B4314ED /* Pods_SuperPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C3E715FA01DB4909C9C6FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9BFB50D5B09DDADAD4C0C3DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92C3E715FA01DB4909C9C6FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9BFB50D5B09DDADAD4C0C3DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BFA47DC357D9FE26E7C771BE /* Pods-SuperPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-SuperPod_Tests/Pods-SuperPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C2391820224C647B1BF6E3A3 /* Pods-SuperPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPod_Example.release.xcconfig"; path = "Target Support Files/Pods-SuperPod_Example/Pods-SuperPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E830050E1A38C24323D7BE11 /* SuperPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SuperPod.podspec; path = ../SuperPod.podspec; sourceTree = "<group>"; };
+		E830050E1A38C24323D7BE11 /* SuperPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SuperPod.podspec; path = ../SuperPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				5FC9363AEA649598B72C516C /* Pods-SuperPod_Tests.debug.xcconfig */,
 				BFA47DC357D9FE26E7C771BE /* Pods-SuperPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

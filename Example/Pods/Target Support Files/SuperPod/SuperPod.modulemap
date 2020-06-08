@@ -1,0 +1,6 @@
+framework module SuperPod {
+  umbrella header "SuperPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

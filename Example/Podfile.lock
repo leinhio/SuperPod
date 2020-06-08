@@ -1,0 +1,16 @@
+PODS:
+  - SuperPod (0.1.0)
+
+DEPENDENCIES:
+  - SuperPod (from `../`)
+
+EXTERNAL SOURCES:
+  SuperPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuperPod: 44f442860dc75ba4bdf9ccc8978449733a259420
+
+PODFILE CHECKSUM: 9736caf1ce09f3652061f4c57056909117efe4d6
+
+COCOAPODS: 1.9.1
